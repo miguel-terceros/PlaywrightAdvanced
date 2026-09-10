@@ -1,2 +1,2 @@
-# Playwright-advanced-starter
+# Playwright-advanced
 Starter repo for the "Advanced Playwright" Pluralsight course 
