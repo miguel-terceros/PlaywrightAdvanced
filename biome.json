@@ -15,9 +15,13 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true,
+			"preset": "recommended",
 			"suspicious": {
 				"noAssignInExpressions": "off"
+			},
+			"nursery": {
+				"noPlaywrightMissingAwait": "error",
+				"noPlaywrightUselessAwait": "error"
 			}
 		}
 	},
