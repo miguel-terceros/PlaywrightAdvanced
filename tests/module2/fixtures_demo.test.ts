@@ -1,5 +1,4 @@
 import { expect, test } from "../module2/pages/fixtures/base.js";
-import { StockPage } from "./pages/StockPage.js";
 
 test('Build-in fixtures', async ({ page, browser, request }) => {
     page.goto('');
